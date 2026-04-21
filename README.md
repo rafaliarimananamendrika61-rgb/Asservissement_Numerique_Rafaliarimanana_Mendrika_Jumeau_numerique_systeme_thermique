@@ -14,20 +14,20 @@ Ecole supérieure Polytechnique d’Antsiranana
 3- _COMMENT LANCER LA SIMULATION_?
 Pour obtenir les mêmes résultats que dans le rapport (erreur de 1% et consommation de 11691778 = 3.25 kWh), suivez ces 3 étapes :
 
-Étape 1 : Charger les paramètres 
-Avant d'ouvrir Simulink, vous devez charger les variables (Script)
-	- Ouvrez le fichier Jumeau_Num.m dans MATLAB.
-	- Appuyez sur le bouton Run.
+Étape 1 : Charger les paramètres (Ouvrez le logiciel MATLAB en premier)
+Avant d'ouvrir SIMULINK, vous devez charger les variables (Script)
+	- Parcourir vers le fichier Jumeau_Num.m dans MATLAB et ouvrez-le.
+	- Appuyez sur le bouton Run pour lancer le script.
 
-Étape 2 : Ouvrir le modèle
-	- Double cliquez sur le fichier Jumeau_Numerique_Room.slx.
+Étape 2 : Ouvrir SIMULINK
+	- Parcourir vers le fichier Jumeau_Numerique_Room.slx, ouvrez-le apres.
 	- Le schéma Simulink s'affiche avec tous les composants.
 
 Étape 3 : Exécuter et Observer 
 	- Cliquez sur le bouton vert Run en haut de l'interface Simulink.
 	- Pour voir la courbe du température extérieure(Données enligne sur NASA) : Double-cliquez sur le bloc (scope) : Temperature_pendant_24H.
 	- Pour voir la température a l'intérieure de la piece(maison)  : Double-cliquez sur le bloc(Scope): Température a l'intérieur.
-	- Pour voir la consommation : Regardez la valeur affichée sur le bloc Energie total consommée à la fin des 240s.
+	- Pour voir la consommation : Regardez la valeur affichée sur le bloc Energie total consommée à la fin des 240s.(l'unite est en Joules[J].)
 
 4- _Points clés_ : 
 	- Consigne de confort : Le système est réglé pour maintenir 22°C.
